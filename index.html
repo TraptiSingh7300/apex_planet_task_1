@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Webpage</h1>
+        <div class="nav">
+            <a href="#html">HTML</a>
+            <a href="#css">CSS</a>
+            <a href="#javascript">JAVASCRIPT</a>
+        </div>
+    </header>
+    <main>
+        <section class="html" id="html">
+            <article>
+                <img src="images/HTML5_logo_and_wordmark.svg.png" alt="HTML">
+                <p>HTML (HyperText Markup Language) is the standard markup language used to structure and design web pages. It defines how text, images, and multimedia content are displayed in a web browser.</p>
+            </article>
+        </section>
+        <section class="css" id="css">
+            <article>
+                <img src="/images/OIP.jpeg" alt="css">
+                <p>CSS, which stands for Cascading Style Sheets is a language in web development that enhances the presentation of HTML elements. By applying styles like color, layout, and spacing, CSS makes web pages visually appealing and responsive to various screen sizes.</p>
+            </article>
+        </section>
+        <section class="javascript" id="javascript">
+            <article>
+                <img src="/images/JavaScript-Symbol-500x281.png" alt="javascript">
+                <p>JavaScript is a powerful and flexible programming language for the web that is widely used to make websites interactive and dynamic. JavaScript can also able to change or update HTML and CSS dynamically. JavaScript can also run on servers using tools like Node.js, allowing developers to build entire applications with it</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p> &copy;Keep learning with Us!</p>
+        <p>Subscribe to our website!</p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="example@gmail.com">
+        <button onclick="showMessage()">Subscribe</button>
+    </footer>
+</body>
+<script>
+        function showMessage() {
+            let email=document.getElementById("email").value;
+            if(email){
+                alert("Thank you for subscribing! ✨");
+            }else{
+                alert("Please enter a valid email address.");
+            }
+        }
+    </script>
+</html>

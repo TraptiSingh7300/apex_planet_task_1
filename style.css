@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(254, 136, 94);
+    position: fixed;
+}
+
+main{
+    display: block;
+}
+
+.nav{
+    margin-left: 500px;
+}
+
+.nav a{
+    margin-left: 50px;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.html {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+}
+
+
+img{
+    width: 300px;
+    margin: 90px;
+    box-shadow: 5px 5px 5px 3px cyan;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgba(23, 22, 22, 0.712);
+    width: 500px;
+    margin-left: 100px;
+}
+
+.css{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.css img{
+    width: 300px;
+    height: 350px;
+    margin: 90px;
+    box-shadow: 5px 5px 5px 3px cyan;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgba(23, 22, 22, 0.712);
+    width: 500px;
+    margin-left: 100px;
+}
+
+.javascript{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.javascript img{
+    width: 300px;
+    height: 300px;
+    margin: 90px;
+    box-shadow: 5px 5px 5px 3px cyan;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgba(23, 22, 22, 0.712);
+    width: 500px;
+    margin-left: 100px;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    background-color: rgb(254, 136, 94);
+    padding: 10px;
+    font-size: 20px;
+    color: beige;
+    margin-top: 200px;
+}
+
+footer p{
+    margin-left: 400px;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer input {
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+footer button {
+    background-color: rgba(32, 73, 162, 0.905);
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    border-color: rgb(158, 158, 226);
+    margin-left: 10px;
+    padding: 4px;
+}
+
+footer button:hover {
+    background-color: blue;
+}
